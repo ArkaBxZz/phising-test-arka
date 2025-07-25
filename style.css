@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background: black;
+  color: lime;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+h1 {
+  text-shadow: 0 0 10px lime;
+}
+.login-container {
+  margin-top: 20px;
+}
+.btn-login {
+  background: lime;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  text-shadow: none;
+}
